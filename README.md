@@ -4,16 +4,31 @@ Internal staff control client for the McScrims Minecraft Network. This is a secu
 
 ## Commands
 
-- **STRG + K** - Open a global search menu
+- **Ctrl + K** - Open global search menu (Command Palette)
 
 ## Features
 
-- Secure staff authentication
-- Real-time server monitoring via WebSocket
-- Server management (start, stop, restart, kill)
-- Live metrics display (TPS, MSPT, CPU, Memory)
-- Admin role-based access control
-- Desktop notifications for events
+- **Secure Authentication** - Staff login with role-based access control
+- **Real-time Monitoring** - Live tracking of TPS, MSPT, CPU, and RAM usage via WebSocket
+- **Server Management** - Start, stop, restart, and kill server instances
+- **File Manager** - Integrated file browser with **Monaco Editor** for direct config editing
+- **Live Console** - Interactive terminal (XTerm.js) for viewing logs and sending commands
+- **Global Search** - Quick navigation to servers and tools
+- **System Tray** - Background monitoring and quick status access
+- **Desktop Notifications** - Alerts for critical server events
+
+## Tech Stack
+
+- **Electron** - Desktop application framework
+- **React** - UI framework
+- **TypeScript** - Type-safe development
+- **Vite** - Fast build tooling
+- **Zustand** - State management
+- **Tailwind CSS** - Styling
+- **Axios** - HTTP client
+- **WebSocket** - Real-time communication
+- **Monaco Editor** - Code editor integration
+- **XTerm.js** - Terminal emulation
 
 ## Security
 
@@ -25,6 +40,5 @@ Internal staff control client for the McScrims Minecraft Network. This is a secu
 
 ## Requirements
 
-- Node.js 18+
 - Windows 10/11 (primary target)
 - Staff account credentials
