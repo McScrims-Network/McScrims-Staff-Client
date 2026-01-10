@@ -17,6 +17,17 @@ Internal staff control client for the McScrims Minecraft Network. This is a secu
 - **System Tray** - Background monitoring and quick status access
 - **Desktop Notifications** - Alerts for critical server events
 
+## Upcoming Features (Roadmap)
+
+We are constantly working to improve the McScrims Staff Client. Here is what's coming next:
+
+- **Advanced Log Explorer** - Browse and search through historical server logs and compressed archives.
+- **Plugin Management** - View, toggle, and install plugins directly from the dashboard.
+- **Network-wide Player Manager** - See all online players across the network with quick actions (Kick, Ban, Teleport).
+- **Bulk Commands** - Execute console commands on multiple server instances simultaneously.
+- **Backup Integration** - Create and restore server backups using the Pterodactyl API.
+- **Enhanced Metrics** - Detailed historical graphs for performance monitoring over longer periods.
+
 ## Tech Stack
 
 - **Electron** - Desktop application framework
