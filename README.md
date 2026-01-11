@@ -25,7 +25,6 @@ We are constantly working to improve the McScrims Staff Client. Here is what's c
 - **Plugin Management** - View, toggle, and install plugins directly from the dashboard.
 - **Bulk Commands** - Execute console commands on multiple server instances simultaneously.
 - **Backup Integration** - Create and restore server backups using the Pterodactyl API.
-- **Enhanced Metrics** - Detailed historical graphs for performance monitoring over longer periods.
 
 ### Next Feature Update
 
