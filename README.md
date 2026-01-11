@@ -23,10 +23,21 @@ We are constantly working to improve the McScrims Staff Client. Here is what's c
 
 - **Advanced Log Explorer** - Browse and search through historical server logs and compressed archives.
 - **Plugin Management** - View, toggle, and install plugins directly from the dashboard.
-- **Network-wide Player Manager** - See all online players across the network with quick actions (Kick, Ban, Teleport).
 - **Bulk Commands** - Execute console commands on multiple server instances simultaneously.
 - **Backup Integration** - Create and restore server backups using the Pterodactyl API.
 - **Enhanced Metrics** - Detailed historical graphs for performance monitoring over longer periods.
+
+### Next Feature Update
+
+#### 👥 Network-wide Player Manager
+- **Global Player Search** - Find any player across the entire Minecraft network instantly.
+- **Cross-Server Actions** - Kick, ban, or warn players from a centralized interface.
+- **Smart Teleportation** - Move players between server instances (e.g., from Lobby to Games) with a single click.
+- **Detailed Player Profiles** - View play sessions, ranks, and associated staff notes.
+
+#### 📈 Advanced Analytics
+- **Historical Metrics** - View TPS and player count trends over the last 24 hours.
+- **Performance Alerts** - Automated notifications when a server's MSPT exceeds safe thresholds.
 
 ## Tech Stack
 
