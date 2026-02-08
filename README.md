@@ -155,7 +155,7 @@ Distributed under the Proprietary License. This software is intended for **inter
 
 ## Contact
 
-McScrims Network - [@McScrims](https://twitter.com/McScrims) - admin@mcscrims.club
+McScrims Network - [@McScrims]([https://twitter.com/McScrims](https://x.com/McScrimsNetwork)) - administration@mcscrims.club
 
 Project Link: [https://github.com/McScrims-Network/McScrims-Staff-Client](https://github.com/McScrims-Network/McScrims-Staff-Client)
 
