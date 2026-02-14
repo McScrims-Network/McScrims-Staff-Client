@@ -53,13 +53,13 @@ The McScrims Staff Client is a specialized tool designed to streamline the workf
 
 - **🔐 Secure Authentication** - Staff login with role-based access control and persistent sessions.
 - **⚡ Real-time Monitoring** - Live tracking of TPS, MSPT, CPU, and RAM usage via WebSocket.
-- **🎮 Server Management** - Start, stop, restart, and kill server instances instantly.
-- **📂 File Manager** - Integrated file browser with **Monaco Editor** for direct config editing (YAML/JSON/Properties).
-- **💻 Live Console** - Interactive terminal (XTerm.js) for viewing logs and sending commands.
-- **💬 Global Staff Chat** - Communicate with the team via the integrated slide-over chat panel.
-- **🎫 Ticket System** - Manage support requests via a Kanban-style drag & drop board.
-- **🔍 Global Search** - Quick navigation to servers and tools via Command Palette (`Ctrl + K`).
-- **🔔 Smart Notifications** - Desktop alerts for mentions, high CPU usage, or critical server events.
+- **📊 Advanced Analytics** - Interactive charts for server performance and player trends over time.
+- **👥 Player Manager** - Global search (UUID/Name), detailed profiles, and silent moderation tools.
+- **📅 Task Scheduler** - Automated cron-based tasks for server restarts and maintenance.
+- **🎫 Live Ticket System** - Real-time support chat with instant WebSocket updates.
+- **☁️ Cloud Sync** - User settings and preferences synchronized across devices.
+- **📂 File Manager** - Integrated file browser with Monaco Editor for config editing.
+- **💻 Live Console** - Interactive terminal for logs and commands.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,17 +119,24 @@ We are constantly working to improve the McScrims Staff Client.
 - [ ] **Bulk Commands** - Execute console commands on multiple server instances simultaneously.
 - [ ] **Backup Integration** - Create and restore server backups using the Pterodactyl API.
 
-### 📅 Next Feature Update (v1.4.0)
+### 📅 Next Feature Update (v1.5.0)
 
-#### 👥 Network-wide Player Manager
-- [ ] **Global Player Search** - Find any player across the entire Minecraft network instantly.
-- [ ] **Cross-Server Actions** - Kick, ban, or warn players from a centralized interface.
-- [ ] **Smart Teleportation** - Move players between server instances (e.g., from Lobby to Games) with a single click.
-- [ ] **Detailed Player Profiles** - View play sessions, ranks, and associated staff notes.
+#### 🛡️ Staff Security & Audit
+- [ ] **Session Playback** - Review detailed logs of staff actions during specific sessions.
+- [ ] **Suspicious Activity Alerts** - Automated warnings for unusual login locations or mass-punishment events.
+- [ ] **Exportable Logs** - Generate PDF/CSV reports of admin actions for monthly reviews.
 
-#### 📈 Advanced Analytics
-- [x] **Historical Metrics** - View TPS and player count trends over the last 24 hours (Backend Ready).
-- [ ] **Performance Alerts** - Automated notifications when a server's MSPT exceeds safe thresholds.
+#### 🤝 Collaboration & Integration
+- [ ] **Discord Rich Presence** - Show current monitoring status (e.g., "Managing Lobby-1") in Discord.
+- [ ] **Live Team View** - See which servers other staff members are currently inspecting to avoid collision.
+- [ ] **Shared Snippets** - Team-wide clipboard for common support responses and console commands.
+
+### ✅ Recently Completed (v1.4.0)
+- [x] **Advanced Server Analytics** - Real-time charts (CPU/RAM/Players) with historical data viewing.
+- [x] **Network-wide Player Manager** - Global lookup, profile inspection, and silent moderation actions.
+- [x] **Task Scheduler** - Cron-based automation for server restarts and commands via API.
+- [x] **Live Ticket System** - Full backend integration with real-time WebSocket messaging.
+- [x] **Server-synced Settings** - User preferences are now debounced and synchronized with the cloud.
 
 See the [open issues](https://github.com/McScrims-Network/McScrims-Staff-Client/issues) for a full list of proposed features.
 
