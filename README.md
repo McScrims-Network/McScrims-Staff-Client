@@ -113,30 +113,41 @@ After launching the client, log in using your McScrims Staff credentials.
 
 We are constantly working to improve the McScrims Staff Client.
 
-### 🚀 Coming Soon
-- [ ] **Advanced Log Explorer** - Browse and search through historical server logs and compressed archives.
-- [ ] **Plugin Management** - View, toggle, and install plugins directly from the dashboard.
-- [ ] **Bulk Commands** - Execute console commands on multiple server instances simultaneously.
-- [ ] **Backup Integration** - Create and restore server backups using the Pterodactyl API.
+### 📅 Next Feature Update (v1.6.0)
 
-### 📅 Next Feature Update (v1.5.0)
+#### 🖥️ Server & Monitoring
+- [ ] **Server Health Alerts** - Desktop notifications when servers go down, CPU spikes, or TPS drops.
+- [ ] **Server Groups / Tags** - Organize servers by game mode, node, or custom tags.
+- [ ] **Bulk Actions** - Restart, stop, or run commands across multiple servers at once.
+- [ ] **Maintenance Windows** - Schedule maintenance periods with countdown and player visibility.
 
-#### 🛡️ Staff Security & Audit
-- [ ] **Session Playback** - Review detailed logs of staff actions during specific sessions.
-- [ ] **Suspicious Activity Alerts** - Automated warnings for unusual login locations or mass-punishment events.
-- [ ] **Exportable Logs** - Generate PDF/CSV reports of admin actions for monthly reviews.
+#### ⚡ Produktivität & UX
+- [ ] **Favorites / Pinned Servers** - Pin frequently used servers to the top of the list.
+- [ ] **Enhanced Command Palette** - Quick actions for common tasks (restart server, search player, etc.).
+- [ ] **Keyboard Shortcuts** - Global shortcuts for power users.
+- [ ] **Recent Activity** - Quick access to recently viewed servers, players, and tickets.
 
-#### 🤝 Collaboration & Integration
-- [ ] **Discord Rich Presence** - Show current monitoring status (e.g., "Managing Lobby-1") in Discord.
-- [ ] **Live Team View** - See which servers other staff members are currently inspecting to avoid collision.
-- [ ] **Shared Snippets** - Team-wide clipboard for common support responses and console commands.
+#### 👥 Spieler-Management
+- [ ] **Player Watchlist** - Flag players and get notified when they join.
+- [ ] **Ban Appeal Queue** - Centralized view of pending ban appeals with status tracking.
+- [ ] **Player Activity Timeline** - Chronological view of all actions for a given player.
+- [ ] **Whitelist Management** - View and manage server whitelists from the dashboard.
 
-### ✅ Recently Completed (v1.4.0)
-- [x] **Advanced Server Analytics** - Real-time charts (CPU/RAM/Players) with historical data viewing.
-- [x] **Network-wide Player Manager** - Global lookup, profile inspection, and silent moderation actions.
-- [x] **Task Scheduler** - Cron-based automation for server restarts and commands via API.
-- [x] **Live Ticket System** - Full backend integration with real-time WebSocket messaging.
-- [x] **Server-synced Settings** - User preferences are now debounced and synchronized with the cloud.
+#### 🔐 Sicherheit & Compliance
+- [ ] **2FA / MFA** - Two-factor authentication for staff login.
+- [ ] **IP Whitelist** - Restrict staff login to approved IP addresses.
+- [ ] **Enhanced Audit Export** - Additional formats (JSON), higher limits, scheduled exports.
+
+#### 📊 Reporting & Export
+- [ ] **Custom Reports** - Build reports with date range, server filter, and custom metrics.
+- [ ] **Scheduled Reports** - Weekly or monthly reports delivered via email or download.
+- [ ] **Server Uptime Dashboard** - Historical uptime statistics per server.
+
+### ✅ Recently Completed (v1.5.0)
+- [x] **Staff Security & Audit** - Session Playback, Suspicious Activity Alerts, Exportable Logs (CSV/PDF).
+- [x] **Collaboration & Integration** - Discord Rich Presence, Live Team View, Shared Snippets.
+- [x] **Backup Integration** - Create, restore, download, and lock Pterodactyl backups.
+- [x] **Advanced Log Explorer** - Browse and search historical server logs and compressed archives.
 
 See the [open issues](https://github.com/McScrims-Network/McScrims-Staff-Client/issues) for a full list of proposed features.
 
