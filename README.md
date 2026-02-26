@@ -113,41 +113,50 @@ After launching the client, log in using your McScrims Staff credentials.
 
 We are constantly working to improve the McScrims Staff Client.
 
-### 📅 Next Feature Update (v1.6.0)
+### 📅 Next Feature Update (v1.7.0)
 
 #### 🖥️ Server & Monitoring
-- [ ] **Server Health Alerts** - Desktop notifications when servers go down, CPU spikes, or TPS drops.
-- [ ] **Server Groups / Tags** - Organize servers by game mode, node, or custom tags.
-- [ ] **Bulk Actions** - Restart, stop, or run commands across multiple servers at once.
-- [ ] **Maintenance Windows** - Schedule maintenance periods with countdown and player visibility.
+- [ ] **Resource History Graphs** - CPU, RAM, and TPS charts over time per server.
+- [ ] **Auto-Restart on Crash** - Automatically restart servers when they crash or become unresponsive.
+- [ ] **Server Comparison View** - Side-by-side comparison of metrics across multiple servers.
+- [ ] **Resource Alerts** - Notifications for low disk space, memory exhaustion, or prolonged high CPU.
 
 #### ⚡ Produktivität & UX
-- [ ] **Favorites / Pinned Servers** - Pin frequently used servers to the top of the list.
-- [ ] **Enhanced Command Palette** - Quick actions for common tasks (restart server, search player, etc.).
-- [ ] **Keyboard Shortcuts** - Global shortcuts for power users.
-- [ ] **Recent Activity** - Quick access to recently viewed servers, players, and tickets.
+- [ ] **Customizable Dashboard** - Drag-and-drop widgets, personalized layout per staff member.
+- [ ] **Notification Center** - Centralized inbox for all alerts with read/unread status.
+- [ ] **Quick Actions Bar** - One-click shortcuts for your most-used actions.
+- [ ] **Multi-Tab Server View** - Open multiple server details in tabs for parallel monitoring.
 
 #### 👥 Spieler-Management
-- [ ] **Player Watchlist** - Flag players and get notified when they join.
-- [ ] **Ban Appeal Queue** - Centralized view of pending ban appeals with status tracking.
-- [ ] **Player Activity Timeline** - Chronological view of all actions for a given player.
-- [ ] **Whitelist Management** - View and manage server whitelists from the dashboard.
+- [ ] **Player Notes (Rich Text)** - Formatted notes with links, formatting, and attachments.
+- [ ] **Player Alias Tracking** - Track name changes and account associations.
+- [ ] **Mass Appeal Actions** - Approve, reject, or assign multiple ban appeals at once.
+- [ ] **Cross-Server Player Search** - Find a player across all servers in one search.
 
 #### 🔐 Sicherheit & Compliance
-- [ ] **2FA / MFA** - Two-factor authentication for staff login.
-- [ ] **IP Whitelist** - Restrict staff login to approved IP addresses.
-- [ ] **Enhanced Audit Export** - Additional formats (JSON), higher limits, scheduled exports.
+- [ ] **Passkey / WebAuthn Login** - Passwordless login with hardware keys or biometrics.
+- [ ] **Session Device Management** - View and revoke active sessions per device.
+- [ ] **Audit Log Retention Policies** - Configurable retention and archival rules.
+- [ ] **Role Permission Presets** - Predefined permission templates for common staff roles.
 
 #### 📊 Reporting & Export
-- [ ] **Custom Reports** - Build reports with date range, server filter, and custom metrics.
-- [ ] **Scheduled Reports** - Weekly or monthly reports delivered via email or download.
-- [ ] **Server Uptime Dashboard** - Historical uptime statistics per server.
+- [ ] **Report Templates** - Save and reuse custom report configurations.
+- [ ] **Real-Time Analytics Dashboard** - Live charts for player counts, server health, and trends.
+- [ ] **Export to External Systems** - Webhook or API integration for report delivery.
+- [ ] **Comparative Uptime Reports** - Compare uptime across servers or time periods.
 
-### ✅ Recently Completed (v1.5.0)
-- [x] **Staff Security & Audit** - Session Playback, Suspicious Activity Alerts, Exportable Logs (CSV/PDF).
-- [x] **Collaboration & Integration** - Discord Rich Presence, Live Team View, Shared Snippets.
-- [x] **Backup Integration** - Create, restore, download, and lock Pterodactyl backups.
-- [x] **Advanced Log Explorer** - Browse and search historical server logs and compressed archives.
+#### 🔌 Integration & Automation
+- [ ] **Webhook Integrations** - Trigger webhooks on server events (crash, player join, etc.).
+- [ ] **Discord/Slack Alerts** - Send critical alerts to team channels.
+- [ ] **Scheduled Task Templates** - Reusable task configurations for common workflows.
+- [ ] **API Access for External Tools** - Read-only API for dashboards and monitoring tools.
+
+### ✅ Recently Completed (v1.6.0)
+- [x] **Server & Monitoring** - Server Health Alerts, Server Groups/Tags, Bulk Actions, Maintenance Windows.
+- [x] **Produktivität & UX** - Favorites/Pinned Servers, Enhanced Command Palette, Keyboard Shortcuts, Recent Activity.
+- [x] **Spieler-Management** - Player Watchlist, Ban Appeal Queue, Player Activity Timeline, Whitelist Management.
+- [x] **Sicherheit & Compliance** - 2FA/MFA, IP Whitelist, Enhanced Audit Export.
+- [x] **Reporting & Export** - Custom Reports, Scheduled Reports, Server Uptime Dashboard.
 
 See the [open issues](https://github.com/McScrims-Network/McScrims-Staff-Client/issues) for a full list of proposed features.
 
