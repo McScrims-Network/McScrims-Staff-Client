@@ -122,10 +122,10 @@ We are constantly working to improve the McScrims Staff Client.
 - [ ] **Resource Alerts** - Notifications for low disk space, memory exhaustion, or prolonged high CPU.
 
 #### ⚡ Produktivität & UX
-- [ ] **Customizable Dashboard** - Drag-and-drop widgets, personalized layout per staff member.
-- [ ] **Notification Center** - Centralized inbox for all alerts with read/unread status.
-- [ ] **Quick Actions Bar** - One-click shortcuts for your most-used actions.
-- [ ] **Multi-Tab Server View** - Open multiple server details in tabs for parallel monitoring.
+- [x] **Customizable Dashboard** - Drag-and-drop widgets, personalized layout per staff member.
+- [x] **Notification Center** - Centralized inbox for all alerts with read/unread status.
+- [x] **Quick Actions Bar** - One-click shortcuts for your most-used actions.
+- [x] **Multi-Tab Server View** - Open multiple server details in tabs for parallel monitoring.
 
 #### 👥 Spieler-Management
 - [ ] **Player Notes (Rich Text)** - Formatted notes with links, formatting, and attachments.
