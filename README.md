@@ -134,10 +134,10 @@ We are constantly working to improve the McScrims Staff Client.
 - [ ] **Cross-Server Player Search** - Find a player across all servers in one search.
 
 #### 🔐 Sicherheit & Compliance
-- [ ] **Passkey / WebAuthn Login** - Passwordless login with hardware keys or biometrics.
-- [ ] **Session Device Management** - View and revoke active sessions per device.
-- [ ] **Audit Log Retention Policies** - Configurable retention and archival rules.
-- [ ] **Role Permission Presets** - Predefined permission templates for common staff roles.
+- [x] **Passkey / WebAuthn Login** - Passwordless login with hardware keys or biometrics.
+- [x] **Session Device Management** - View and revoke active sessions per device.
+- [x] **Audit Log Retention Policies** - Configurable retention and archival rules.
+- [x] **Role Permission Presets** - Predefined permission templates for common staff roles.
 
 #### 📊 Reporting & Export
 - [ ] **Report Templates** - Save and reuse custom report configurations.
