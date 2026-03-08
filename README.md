@@ -146,10 +146,10 @@ We are constantly working to improve the McScrims Staff Client.
 - [ ] **Comparative Uptime Reports** - Compare uptime across servers or time periods.
 
 #### 🔌 Integration & Automation
-- [ ] **Webhook Integrations** - Trigger webhooks on server events (crash, player join, etc.).
-- [ ] **Discord/Slack Alerts** - Send critical alerts to team channels.
-- [ ] **Scheduled Task Templates** - Reusable task configurations for common workflows.
-- [ ] **API Access for External Tools** - Read-only API for dashboards and monitoring tools.
+- [x] **Webhook Integrations** - Trigger webhooks on server events (crash, player join, etc.).
+- [x] **Discord/Slack Alerts** - Send critical alerts to team channels.
+- [x] **Scheduled Task Templates** - Reusable task configurations for common workflows.
+- [x] **API Access for External Tools** - Read-only API for dashboards and monitoring tools.
 
 ### ✅ Recently Completed (v1.6.0)
 - [x] **Server & Monitoring** - Server Health Alerts, Server Groups/Tags, Bulk Actions, Maintenance Windows.
