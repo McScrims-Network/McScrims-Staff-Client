@@ -116,10 +116,10 @@ We are constantly working to improve the McScrims Staff Client.
 ### 📅 Next Feature Update (v1.7.0)
 
 #### 🖥️ Server & Monitoring
-- [ ] **Resource History Graphs** - CPU, RAM, and TPS charts over time per server.
-- [ ] **Auto-Restart on Crash** - Automatically restart servers when they crash or become unresponsive.
-- [ ] **Server Comparison View** - Side-by-side comparison of metrics across multiple servers.
-- [ ] **Resource Alerts** - Notifications for low disk space, memory exhaustion, or prolonged high CPU.
+- [x] **Resource History Graphs** - CPU, RAM, and TPS charts over time per server.
+- [x] **Auto-Restart on Crash** - Automatically restart servers when they crash or become unresponsive.
+- [x] **Server Comparison View** - Side-by-side comparison of metrics across multiple servers.
+- [x] **Resource Alerts** - Notifications for low disk space, memory exhaustion, or prolonged high CPU.
 
 #### ⚡ Produktivität & UX
 - [x] **Customizable Dashboard** - Drag-and-drop widgets, personalized layout per staff member.
